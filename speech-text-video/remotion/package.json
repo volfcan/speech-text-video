@@ -1,0 +1,33 @@
+{
+  "name": "template-helloworld",
+  "version": "1.0.0",
+  "description": "My Remotion video",
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio",
+    "build": "remotion bundle",
+    "upgrade": "remotion upgrade",
+    "lint": "eslint src --ext ts,tsx,js,jsx && tsc"
+  },
+  "repository": {},
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/cli": "latest",
+    "@remotion/zod-types": "latest",
+    "assemblyai": "^4.8.0",
+    "axios": "^1.7.7",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "latest",
+    "zod": "3.22.3"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config": "latest",
+    "@types/react": "18.3.1",
+    "@types/web": "0.0.166",
+    "eslint": "8.56.0",
+    "prettier": "3.3.3",
+    "typescript": "5.5.4"
+  },
+  "private": true
+}
